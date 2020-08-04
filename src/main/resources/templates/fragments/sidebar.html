@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+			<nav class="sidebar sidebar-open" th:fragment="nav-sidebar">
+				<ul class="nav nav-pills">
+					<li class="nav-item"><a class="nav-link " href="/"> <i
+							class="oi oi-home"></i> <span>Home</span>
+					</a></li>
+				</ul>
+
+				<ul class="nav nav-pills">
+					<li class="nav-item"><span class="nav-link active">Clientes</span></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/clientes/cadastrar"> <i class="oi oi-plus"></i> <span>Cadastrar </span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/clientes/listar"> <i class="oi oi-spreadsheet"></i> <span>Listar </span>
+					</a></li>
+				</ul>
+
+				<ul class="nav nav-pills">
+					<li class="nav-item"><span class="nav-link active">Relatórios</span></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/relatorios/saldo-cliente"> <i class="oi oi-spreadsheet"></i> <span>Saldo do cliente</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/relatorios/saldo-cliente-periodo"> <i class="oi oi-spreadsheet"></i> <span>Saldo do cliente por período</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/relatorios/saldo-todos-clientes"> <i class="oi oi-spreadsheet"></i> <span>Saldo de todos os clientes</span>
+					</a></li>
+					<li class="nav-item"><a class="nav-link" 
+						href="/relatorios/receita-empresa-periodo"> <i class="oi oi-spreadsheet"></i> <span>Receita da empresa por período</span>
+					</a></li>
+				</ul>
+			</nav>
+</body>
+</html>
